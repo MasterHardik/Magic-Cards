@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator : Predictor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main id="base">
+        <form>
+            
+            <div class="pantone-card"  id="C1" onclick="mark(this)">
+                <img src="IMG/C1.jpg" onclick="markID(this)" id="ID1">
+            </div>
+            
+        <div class="pantone-card"  id="C2" onclick="mark(this)">
+            <img src="IMG/C2.jpg" onclick="markID(this)" id="ID2">
+        </div>
+        
+        <div class="pantone-card"  id="C4" onclick="mark(this)">
+            <img src="IMG/C4.jpg" onclick="markID(this)" id="ID4" >
+        </div>  
+        
+        <div class="pantone-card"  id="C8" onclick="mark(this)">
+            <img src="IMG/C8.jpg" onclick="markID(this)" id="ID8" >
+        </div>
+        
+        <div class="pantone-card"  id="C16" onclick="mark(this)">
+            <img src="IMG/C16.jpg" onclick="markID(this)" id="ID16">
+        </div>
+        
+        <div class="pantone-card"  id="C32" onclick="mark(this)">
+            <img src="IMG/C32.jpg" onclick="markID(this)" id="ID32">
+        </div>
+        
+    </form>
+    <div class="heading">
+        <h1>Age Predictor 💡</h1><br>
+    </div>
+    <div class="heading">
+        
+        <h5>To see your age, pick the card above that has your age.</h5>
+    </div>
+    
+    <div id="xy" onclick="ChageTheme()">
+    </div>
+    <button type="submit" class="heading" id="confirm_btn" onclick="giveAge()">Reveal my age 😁</button>
+</main>
+    <script src="index.js"></script>
+</body>
+</html>
